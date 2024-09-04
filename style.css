@@ -149,3 +149,7 @@
 .body-content .tital-part .tital-name button:hover{
     background-color: #8fd346;
 }
+.savings-content{
+    background-color: #000;
+    height: 30px;
+}

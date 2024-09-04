@@ -6,20 +6,3 @@
   }
 }
 
-
-{
-  "name": "my-project",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "node index.js",
-    "build": "webpack --config webpack.config.js",
-    "test": "jest"
-  }
-}
-{
-  "name": "my-project",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "node index.js"
-  }
-}
