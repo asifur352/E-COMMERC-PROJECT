@@ -1,3 +1,4 @@
+
 .navbare-content {
     padding: 20px;
 }
@@ -149,7 +150,72 @@
 .body-content .tital-part .tital-name button:hover{
     background-color: #8fd346;
 }
+/* ------------savings-content---------- */
 .savings-content{
     background-color: #000;
-    height: 30px;
+    height: 207px;
+    padding: 35px 30px 25px 43px;
+}
+.savings-content .item{
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    cursor: pointer;
+    height: 122px;
+    width: 88%;
+    padding-right: 10px;
+}
+.savings-content .item span{
+    color: #7ae705;
+    font-weight: 600;
+}
+.savings-content .item h5{
+    font-family: 'Merriweather', serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.savings-content .item p{
+    font-family: 'Merriweather', serif;
+}
+/* --------------------selling-product-------------- */
+.selling-product{
+    padding: 57px;
+}
+.selling-product h2 {
+    font-size: 2.35rem;
+    font-family: 'Merriweather', serif;
+    line-height: 4.2rem;
+    text-align: center;
+    padding-top: 35px;
+    font-weight: 700;
+}
+.selling-product span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.selling-product .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: none !important;
+}
+.selling-content .card-title{
+    display: flex;
+    justify-content: center;
+    font-size:15px;
+    font-family: 'Merriweather', serif;
+    color:#939393;
+}
+.selling-content p.card-text {
+    display: flex;
+    justify-content: center;
+    margin-top: -3px;
+    font-family: 'Merriweather', serif;
 }
