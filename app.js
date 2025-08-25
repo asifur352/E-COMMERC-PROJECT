@@ -32,7 +32,7 @@ const cardtitel=document.querySelector(".card-title");
      card.addEventListener("click", function() {
          card.style.backgroundColor = getRandomColor();
          cardtitel.style.color=getRandomColor();
-         cardtitel.style.fontsize="30px";
+         
      });
 
  });

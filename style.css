@@ -106,8 +106,8 @@
 }
 
 .body-content .tital-part .tital-img img {
-    width: 643px;
-    height: 543px;
+    width: 500px;
+    height: 500px;
 }
 
 .body-content .tital-part .tital-name {
@@ -238,6 +238,6 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-top: -18px;
+       margin: -19px 0px 0px -13px;
     font-weight: 900;
 }
